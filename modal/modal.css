@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:white;
+}
+
+.container{
+    background-color: rgba(187, 182, 182, 0.452);
+    margin-left:25rem;
+    margin-right:25rem;
+    margin-top:0.5rem;
+    border-radius: 5px;
+    padding-bottom: 1rem;
+}
+
+.please{
+    font-size:17px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(48, 46, 46, 0.988);
+    text-align: center;
+    padding-left:1rem;
+    padding-top:0.5rem;
+    padding-right:2rem;
+}
+.hidden{
+    display: none;
+}
+.x{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 2rem;
+    color:rgba(53, 52, 52, 0.603);
+}
+
+.x:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.container1{
+    background-color:white;
+    margin-right:1rem;
+    margin-left:1rem;
+    border-radius: 4px;
+    padding: 1rem;
+}
+
+.container2{
+    background-color: white;
+    border: 1px solid rgb(16, 16, 16);
+}
+
+.sin{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top:1.2rem;
+    padding-bottom: 1rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    margin-left: 2rem;
+    border: none;
+    border-top: solid 3px springgreen;
+}
+.sin:hover{
+    cursor: pointer;
+}
+
+.sout{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top:1.3rem;
+    padding-bottom: 1rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    background-color: rgba(128, 128, 128, 0.679);
+    border: none;
+}
+.sout:hover{
+    cursor: pointer;
+}
+
+.username{
+    margin-top:2.5rem;
+    margin-left:2rem;
+    margin-bottom:1rem;
+    font-size:2rem;
+    border-radius: 5px;
+    padding-left: 1rem;
+    background-color: white;
+}
+.use{
+    font-size:1.5rem;
+    margin-left:1rem;
+    padding: 1rem;
+    padding-right: 14rem;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.password{
+    margin-top: 1rem;
+    margin-left:2rem;
+    margin-bottom:1rem;
+    font-size:2rem;
+    border-radius: 5px;
+    padding-left: 1rem;
+    background-color: white;
+}
+.pas{
+    font-size: 1.5rem;
+    margin-left:1rem;
+    padding: 1rem;
+    padding-right:14rem;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.checkbox{
+    margin-left: 2rem;
+    margin-right: 0.3rem;
+}
+.checkbox:hover{
+    cursor: pointer;
+}
+
+.rem{
+    border: none;
+    margin-bottom: 1rem;
+    background-color: white;
+}
+.rem:hover{
+    cursor: pointer;
+}
+
+.forget{
+    border: none;
+    margin-left:23rem;
+    background-color: white;
+}
+.forget:hover{
+    cursor: pointer;
+}
+
+.sin1{
+    font-size:1.5rem;
+    margin-left:2rem;
+    margin-bottom:1rem;
+    margin-right:1rem;
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
+    padding-left:16rem;
+    padding-right:16rem;
+    border-radius:5px;
+    border: 2px solid rgba(128, 128, 128, 0.679);
+    font-weight:200;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: springgreen;
+    color: white;
+    font-weight: bold;
+}
+.sin1:hover{
+    cursor: pointer;
+}
+
+.or{
+    margin-left: 3rem;
+    margin-bottom: 1.5rem;
+    color:rgba(128, 128, 128, 0.862);
+}
+
+.why{
+    color: springgreen;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.google{
+    background-color: orangered;
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius:5px;
+    border: none;
+    margin-left:2rem;
+    font-weight: bold;
+    padding-right: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display:inline-flex;
+    justify-items:right;
+}
+.google:hover{
+    cursor: pointer;
+}
+
+.face{
+    background-color:royalblue;
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius:5px;
+    border: none;
+    margin-left:7rem;
+    font-weight: bold;
+    padding-right: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    display:inline-flex;
+}
+.face:hover{
+    cursor: pointer;
+}
+
+.link{
+    background-color:cornflowerblue;
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius:5px;
+    border: none;
+    margin-left:2rem;
+    font-weight: bold;
+    padding-right: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    display:inline-flex;
+}
+.link:hover{
+    cursor: pointer;
+}
+
+.git{
+    background-color:rgb(16, 16, 16);
+    color: white;
+    font-size:1.5rem;
+    padding: 0.5rem;
+    border-radius:5px;
+    border: none;
+    margin-left:7rem;
+    font-weight: bold;
+    padding-right: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    display: flex;
+    display:inline-flex;
+}
+.git:hover{
+    cursor: pointer;
+}

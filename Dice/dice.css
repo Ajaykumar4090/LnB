@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-div{
+    background-color:rgba(0, 0, 0, 0.826);
+    margin-left: 23rem;
+    margin-right: 23rem;
+    margin-top: 5rem;
+    border-radius: 1rem;
+}
+
+.user{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.user1{
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-left:2rem;
+    margin-right:2rem;
+    background-color:rgba(64, 7, 7, 0.96);
+    color: white;
+    padding: 0.5rem;
+    border-radius:0.5rem;
+}
+
+.player{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 2rem;
+}
+
+.pic2{
+    width:25rem;
+    height: 9rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    box-shadow: 2px 5px 1px rgba(239, 252, 2, 0.962);
+}
+
+.pic{
+    width:5rem;
+    margin-top:1rem;
+    margin-left:1.3rem;
+}
+
+.dice{
+    display: flex;
+    justify-content: space-between;
+}
+.dice1{
+    margin: 2rem;
+    border-radius: 1.5rem;
+    width:10rem;
+}
+.dice2{
+    margin: 2rem;
+    border-radius: 1.5rem;
+    width:10rem;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    color: yellowgreen;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; ;
+}
+
+.s1{
+    margin-left: 2.5rem;
+    margin-top: 4rem;
+    color: yellow;
+}
+.s2{
+    margin-right: 2.5rem;
+    margin-top: 4rem;
+    color: yellow;
+}
+
+#buttonRoll{
+    font-size:2rem;
+    padding:0.5rem;
+    font-weight: bold;
+    border: none;
+    margin-top:4rem;
+    margin-bottom:4rem;
+    border-radius: 1rem;
+    color: red;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    box-shadow: 2px 5px 1px rgba(0, 0, 0, 0.874);
+}
+#buttonRoll:hover{
+    color: blueviolet;
+    cursor: pointer;
+}
+#buttonagain{
+    font-size:2rem;
+    padding:0.5rem; 
+    font-weight: bold;
+    height:fit-content;
+    border: none;
+    margin-top:4rem;
+    margin-left: 2rem;
+    border-radius: 1rem;
+    color: green;
+    background-color:wheat;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    box-shadow: 2px 5px 1px rgba(0, 0, 0, 0.975);
+}
+#buttonagain:hover{
+    color: blueviolet;
+}
