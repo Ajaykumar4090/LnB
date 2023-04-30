@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbarr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    background-color: black;
+}
+
+
+.logo img{
+    width: 40%;
+}
+
+.nav-list{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+    position: relative;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color:white;
+    transition:all 0.3s;
+    font-weight: bold
+}
+
+.nav-list li a:hover{
+    color:rgb(174, 0, 255);
+    font-weight: bold;
+}
+
+.rightNav{
+    width: 50%;
+    text-align: right;
+}
+
+#searchh{
+    margin-top:rem;
+    padding: 0.4rem;
+    background: none;
+    border:2px solid white;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    color: white;
+}
+.btnn{
+    margin-top:rem;
+    padding: 0.4rem;
+    margin-right: 0.3rem;
+    border:2px solid white;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    cursor: pointer;
+    background-color:darkcyan;
+    color: white;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.755) url(/Image/realesc.jpg);
+    background-size:cover;
+    background-blend-mode:darken;
+}
+
+.Expert{
+    font-size: 70px;
+    letter-spacing:4px;
+    word-spacing: 10px;
+    padding-left:2rem;
+    background-color: rgba(127, 255, 212, 0.364);
+    color: navy;
+}
+.Expert:hover{
+    color:orangered;
+}
+
+.firstsection{
+    height: 100vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+
+.firstHalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondHalf{
+    width: 40%;
+}
+
+.secondHalf img{
+    width: 100%;
+    border-radius:5px;
+    display: block;
+    margin: auto;
+}
+
+.text-big{
+    font-size: 30px;
+}
+.text-small{
+    font-size: 18px;
+}
+.btn1{
+    padding: 8px 20px;
+    margin: 7px 0;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: rgb(10, 241, 241);
+    color: black;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.dropdown-menu{
+    display: none;
+}
+
+.nav-list li:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color:darkcyan;
+    border-radius: 5px;
+}
+.dropdown-menu ul{
+    display: block;
+    margin: 10px;
+}
+
+.dropdown-menu ul li {
+    width: 130px;
+    padding: 10px;
+}
+
+.fas{
+    float: right;
+    margin-left: 10px;
+    padding-top:3px ;
+}
+
+.dropdown-menu1{
+    display: none;
+}
+.dropdown-menu ul li:hover .dropdown-menu1 {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 130px;
+    background-color:darkcyan ;
+    border-radius: 5px;
+}
+.section{
+    height:400px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    max-width:80%;
+    margin: auto;
+}
+
+.paras{
+    padding: 0px  65px ;
+}
+
+.imgFluid{
+    width:30rem;
+    height: 17rem;
+    border-radius: 1rem;
+}
+.imgFluidd{
+    width:25rem;
+    height: 22rem;
+    border-radius: 1rem;
+}
+.section-Left{
+    flex-direction: row-reverse;
+}
+.sir{
+    width: 25rem;
+    border-radius: 1rem;
+}
+
+.sectionTag{
+    font-family: 'Ubuntu', sans-serif;
+}

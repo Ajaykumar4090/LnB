@@ -1,0 +1,240 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'cambay', sans-serif;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 70%;
+}
+
+body{
+    color: gainsboro;
+    min-height: 90vh;
+    padding:2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background-color: rgba(44, 44, 146, 0.812);
+    height:9rem;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    padding:0 3rem;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo img{
+    height:8rem;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+.nav-search{
+    display: flex;
+}
+.search{
+    font-size: 2rem;
+    border: none;
+    padding: 0.5rem;
+    /* border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px; */
+    background: transparent;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.fa-search{
+    padding: 1rem;
+    font-size: 2rem;
+}
+.search-btn{
+    border: none;
+    color: white;
+    cursor: pointer;
+    background: transparent;
+    outline: none;
+}
+.search-btn:hover{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: chocolate;
+}
+.nav-user{
+   height:6rem;
+   border-radius: 50%;
+   padding: 0.5rem;
+}
+
+.nav-el{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius:5px;   
+    border: none;
+    cursor: pointer;
+    box-shadow:4px 4px 4px rgb(159, 83, 6) ;
+}
+.nav-el:hover{
+    background-color: rgb(80, 159, 162);
+    color: white;
+    transition: 0.8s;
+    box-shadow:4px 4px 4px #000000 ;
+}
+.nav-ele{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius:5px; 
+    margin-left: 1rem; 
+    border: none;
+    cursor: pointer;
+    box-shadow:4px 4px 4px rgb(159, 83, 6) ;
+}
+.nav-ele:hover{
+    background-color: cadetblue;
+    color: white;
+    transition: 0.8s;
+    box-shadow:4px 4px 4px #000000 ;
+}
+
+.main{
+    background-color: white;
+    padding: 7rem 5rem;
+    position: relative;
+}
+
+.card-box{
+    max-width: 110rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:7rem;
+}
+
+.card{
+    border-radius: 5px;
+    box-shadow: 0 0.5rem 2rem rgba(82, 80, 80, 0.677);
+    background-color: white;
+}
+
+.card-top{
+    position: relative;
+}
+
+.card-logo{
+    height: 20rem;
+    position: relative;
+}
+
+.card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.card-img:hover{
+    transform:translateY(-1rem);
+    box-shadow:3px 6px #000000 ;
+}
+
+.card-heading{
+    font-size: 2rem;
+    color: rgba(53, 52, 52, 0.838);
+    font-weight: 700;
+}
+
+.card-body{
+    padding: 2rem;
+}
+
+.card-body-heading{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: rgba(53, 52, 52, 0.686);
+}
+
+.card-summary{
+    font-style: italic;
+    color: rgba(41, 40, 40, 0.645);
+}
+
+.card-body-star{
+    font-size: 1.2rem;
+}
+
+.card-body-value{
+    font-size: 1.3rem;
+    color: rgb(85, 82, 82);
+}
+
+.btn{
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 5px;
+    display: block;
+    text-decoration: none;
+    position: relative;
+}
+.btn-blue{
+    background-color: rgba(44, 44, 146, 0.812);
+    color: white;
+    font-weight: 700;
+}
+
+.btn-blue:hover{
+    background-color:rgba(44, 44, 146, 0.812) ;
+    box-shadow:4px 4px 4px #000000 ;
+}
+
+.footer{
+    background-color: rgba(44, 44, 146, 0.812);
+    height:7rem;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding:0 3rem;
+    position:relative;
+    bottom: 10px;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.link a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.3rem;
+}
+.link a :hover{
+    font-feature-settings: var(.link);
+}
+.foot img{
+    width: 5rem;
+}
+.acc a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+.acc a:hover{
+    text-decoration: underline;
+    color: rgb(32, 73, 73);
+}
+.about{
+    margin-left: 12rem;
+}
+.contact{
+    margin-left: 5rem;
+}
+.icons{
+    cursor: pointer;
+    margin-left: 25rem;
+}
+
