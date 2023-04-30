@@ -1,0 +1,200 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid project</title>
+ </head>
+ <style>
+
+    *{
+        margin:5px;
+        padding: 0;
+    }
+    .container{
+        display: grid;
+        width:80%;
+        height: 700px;
+        margin-left:20%;
+        grid-template-rows: 100px 1fr 100px;
+        grid-template-columns:40% 35%;
+        grid-template-areas:
+        "header header"
+        "nav  main"
+        "footer footer";
+    }
+    header{
+        background-color:white;
+        grid-area: header;
+        text-align: center;
+        padding-top: 0.5em;
+    }
+    .wel{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .p{
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    nav{
+        background-color:white;
+        grid-area: nav;
+    }
+    .num1{
+        width: 20px;
+        position: absolute;
+        top: 140px;
+        left: 325px;
+    }
+    .num2{
+        width: 20px;
+        position: absolute;
+        left: 325px;
+    }
+    .num3{
+        width: 19px;
+        position: absolute;
+        left: 325px;
+    }
+
+    .more{
+        text-decoration: none;
+        margin-top: 2em;
+        font-weight: bold;
+        font-size: 30px;
+        font-family:arial;
+        color: black;
+    }
+    li{
+        list-style-type: none;
+    }
+    .first, .sec , .third{
+        text-decoration: none;
+        margin-top: 2em;
+        font-weight: bold;
+        font-size: 20px;
+        font-family:Helvetica;
+        color: black;
+        margin-left:1.5em;
+    }
+
+    main{
+        padding:1em;
+        background-color: rgba(158, 173, 231, 0.384);
+        grid-area: main;
+        border: 3px solid rgba(0, 0, 255, 0.677);
+        border-radius: 10px;
+        font-weight: bold;
+        font-size: 20px;
+        font-family:arial;
+        height: 80%;
+    }
+    .morepara{
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .name,.email,.comp,.phone{
+        font-size: 15px;
+        font-weight: bolder;       
+    }
+    .n,.e,.c,.p1{
+        width: 115%;
+        height: 24px;
+        border-left: 1px solid rgba(28, 28, 83, 0.451);
+    }
+    .required{
+        font-weight:bold;
+        font-size: 15px;
+    }
+
+    .button{
+        position: absolute;
+        background-color:rgb(251, 69, 3);
+        color: white;
+        top: 425px;
+        right:340px;
+        padding:0.6em;
+        border-radius:8px;
+        font-size: 17px;
+    }
+    .lorem{
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .obc{
+        text-align: center;
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    footer{
+        background-color:white;
+        grid-area: footer;
+    }
+    .img{
+        width: 50px;
+        float: left;
+    }
+ </style>
+
+ <!-- ====================================
+        CSS   CSS    CSS     CSS     CSS
+========================================== -->
+
+ <body>
+        <section class="container">
+            <header class="wel">Welcome to Our Landing Page<br><p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, assumenda.</p></header>
+            <nav>
+                <ul>
+                    <br>
+                    <li><img class="num1" src="/Image/1 img.png"><a class="first" href="#">First Point</a><br><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro similique sint mollitia sapiente exercitationem illum!</p><br></li>
+                    <li><img class="num2" src="/Image/2 img.png"><a class="sec" href="#">Second Point</a><br><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro similique sint mollitia sapiente exercitationem illum!</p><br></li>
+                    <li><img class="num3" src="/Image/3 img.png"><a class="third" href="#">Thirdt Point</a><br><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro similique sint mollitia sapiente exercitationem illum!</p><br><br></li>
+                    <li class="more1"> <img src="" alt=""><a class="more" href="#">More About Us</a><br><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. assumenda corporis eligendi debitis id commodi  Inventore doloremque vel error amet beatae incidunt accusantium. Debitis facilis ad officiis.</p></li>
+                </ul>
+            </nav>
+            <main>Getting Started<br><p class="morepara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt nesciunt dolorum rem.</p>
+            <form>
+                <table>
+                    <tr class="name">
+                        <td> Name*</td>
+                        <td>
+                            <input class="n" type="text" placeholder="" >
+                        </td>
+                    </tr><br>
+                    <tr class="email">
+                        <td>Email*</td>
+                        <td>
+                            <input class="e" type="text" placeholder="" required>
+                        </td>
+                    </tr>
+                    <tr class="comp">
+                        <td>Company</td>
+                        <td>
+                            <input class="c" type="text" placeholder="" required>
+                        </td>
+                    </tr>
+                    <tr class="phone">
+                        <td>Phone</td>
+                        <td>
+                            <input class="p1" type="text" placeholder="" maxlength="10">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="required"><br><br>*Required Fields</td>
+                    </tr>
+                    <button class="button">Register</button>
+                </table>
+            </form>
+            <p class="lorem"><br><br>Lorem ipsum dolor sit amet consectetur. Saepe <br><p class="obc">obcaecati deserunt modi architecto!</p></p>
+            </main>
+            <footer><img class="img" src="/Image/message.png"> ipsum dolor sit amet, consectetur adipisicing elit. Asperiores ex dolor veniam magnam? Sapiente alias ratione officiis odio assumenda corporis eligendi debitis id commodi tempora ipsum quod repellendus animi aperiam laboriosam laudantium eum nisi velit sit omnis qui, minima, fugiat ipsam ea. Hic ipsam, nisi dolorem quaerat natus earum atque.</footer>
+        </section>
+ </body>
+ </html>

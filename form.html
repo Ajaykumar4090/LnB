@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice page</title>
+    <link rel="icon" href="/Image/Football.jpg">
+    <body  class="cl" style="background-image:url(/Image/Football.jpg)"></body>
+</head>
+
+<style>
+     .a{
+    text-align:center;
+    border: 5px;
+    padding: 10px;
+    margin: 25px;
+    text-shadow: 10px;
+    word-spacing: 30px;
+    text-shadow: 10px;
+    font-weight: bold;
+}
+.a:hover{
+    color: crimson;
+}
+.cl{
+    background-size:100% ;
+}
+
+
+.r{
+    text-shadow: 5px 3px 3px black;
+    text-shadow: 3px 3px 1px rgba(13, 13, 13, 0.979);
+    text-shadow: 6px 3px 3px rgba(7, 235, 231, 0.748);
+}
+.n,.b,.c,.d,.e,.f{
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.butn{
+    margin-bottom: 20px ;
+    border-radius: 5px;
+    padding: 5px;
+    width: max-content;
+}
+</style>
+
+<body>
+    <ul class="a">
+    <a href="home" style="text-decoration: none;">HOME</a>
+    <a href="about" style="text-decoration: none;"> ABOUT</a>
+    <a href="image" style="text-decoration: none;"> IMAGE</a>
+    <a href="contact" style="text-decoration: none;"> CONTACT</a>
+   </ul>
+
+   <center>
+    <form>
+        <h1 class="r" style="color: rgb(8, 8, 8);">Registration form</h1>
+        <table>
+            <tr>
+                <td> Name :</td>
+                <td>
+                    <input class="n" type="text" placeholder="Name" >
+                </td>
+            </tr>
+            <tr>
+                <td> Branch :</td>
+                <td>
+                    <input class="b" type="text" placeholder="Branch" Name="">
+                </td>
+            </tr>
+            <tr>
+                <td> E-mail :</td>
+                <td>
+                    <input class="c" type="email" placeholder="E-mail" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Mobile No. :</td>
+                <td>
+                    <input class="d" type="Mobile no" placeholder="Mobile no" maxlength="10">
+                </td>
+            </tr>
+            <tr>
+                <td>Gender :</td>
+                <td>
+                    <input type="radio" Name="Gender">Male
+                    <input type="radio" Name="Gender">Female
+                    <input type="radio" Name="Gender">Others
+
+                </td>
+            </tr>
+            <tr>
+                <td> Date of birth :</td>
+                <td>
+                    <input class="e" type="date" placeholder="date">
+                </td>
+            </tr>
+            <tr>
+                <td> Password :</td>
+                <td>
+                    <input class="f" type="password" placeholder="Password" required>
+                </td>
+            </tr>
+        </table><br>
+        <button class="butn" style="color: red; font-weight: bold;">SUBMIT</button>
+        
+      </form>
+   </center>
+</body>
+</html>
